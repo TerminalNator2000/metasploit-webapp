@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metasploit Web Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to Metasploit Web Interface</h1>
+    <img src="{{ url_for('static', filename='images/latest_image.jpg') }}" alt="Latest Image" style="max-width: 100%; height: auto;">
+    <a href="{{ url_for('exploits') }}">View Exploits</a>
+</body>
+</html>
